@@ -1,0 +1,2 @@
+#!/bin/sh
+curl --fail --user 5d172d7b63e8c226db9595e67a949636:c6115cea1465d5c37bf59e1c5446183e --data-binary '{"jsonrpc": "2.0", "id":"1", "method": "getinfo", "params": [] }' -H 'content-type: application/json' -X POST http://127.0.0.1:9332 || exit 1
